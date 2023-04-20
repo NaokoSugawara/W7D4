@@ -1,7 +1,8 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-nav > ul,
@@ -12,8 +13,10 @@
 .left-nav {
 
   > ul {
+    display: flex;
+    flex-direction: row;
     > li {
-      
+
     }
   }
 
@@ -24,6 +27,8 @@
 
 .right-nav  {
   > ul {
+    display: flex;
+    flex-direction: row;
     > li {
       
     }
