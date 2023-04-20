@@ -6,6 +6,8 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	top: 100px;
+	left: 100px;
 }
 
 .language-nav {
@@ -34,6 +36,8 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: xx-large;
 }
 
 .masthead-links {
@@ -45,7 +49,7 @@
 
 	li {
 		margin-left: 10px;
-		border-right: 1px solid $light-gray;
+		// border-right: 1px solid $light-gray;
 	}
 
 	button {
