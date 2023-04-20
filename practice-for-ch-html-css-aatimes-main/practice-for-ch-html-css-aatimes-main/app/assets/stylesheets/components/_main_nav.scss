@@ -25,12 +25,24 @@
   }
 }
 
+.subscribe {
+  background-color: blue;
+  border: none;
+}
+
+.log {
+  background-color: aqua;
+  outline: none;
+}
 .right-nav  {
+  display: flex;
+  flex-direction: row;
+
   > ul {
-    display: flex;
-    flex-direction: row;
+
+ 
     > li {
-      
+    
     }
 
     > li:last-of-type {

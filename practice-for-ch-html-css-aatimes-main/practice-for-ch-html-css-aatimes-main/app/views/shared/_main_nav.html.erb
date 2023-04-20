@@ -17,20 +17,12 @@
 	</nav>
   <nav class="right-nav">
     <ul>
-      <li data-controller="sections-sidebar"> 
-        <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
-          <span>subscribe now</span>
-        </div>
-      </li>
-			<li data-controller="modal">
-        <div id="search-modal-btn" data-action="click->modal#toggleModal"> 
-          <span>log in</span>
-        </div>
-			</li>
-      <li data-controller="modal">
-        <div id="search-modal-btn" data-action="click->modal#toggleModal">
-          <i class="fa-solid fa-gear"></i>
-        </div>
-			</li>
+      <button class="subscribe" type="button">subscribe now</button>
+    </ul>
+    <ol>
+      <button class="log" type="button">log in</button>
+    </ol>
+      <button type="button"><i class="fa-solid fa-gear"></i></button>
+      
   </nav>
 </header>
