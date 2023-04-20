@@ -48,6 +48,10 @@
 
   
     }
+    > li:hover{
+      background-color: blue($color: #000000);
+      border-color: darkblue;
+    }
 
     > li:last-of-type {
       
