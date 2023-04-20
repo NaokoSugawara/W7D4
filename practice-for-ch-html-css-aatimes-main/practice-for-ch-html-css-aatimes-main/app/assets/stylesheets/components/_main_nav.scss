@@ -3,22 +3,34 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
   
 }
+.search{
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sections {
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .left-nav {
-  
+
   > ul {
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
     > li {
       margin-right: 15px;
       margin-left: 15px;
-
+      
     }
   }
 
@@ -28,29 +40,33 @@
 }
 
 .subscribe {
-
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.log {
+.log-in {
+  text-transform: uppercase;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
+.gear{
+  font-size: medium;
+}
+
 .right-nav  {
-
-
-  
- 
-
   > ul {
       flex-direction: row;
       display: flex;
+      align-items: center;
     > li {
       margin-right: 3px;
       margin-left: 3px;
-
-  
+        
     }
     > li:hover{
-      background-color: blue($color: #000000);
-      border-color: darkblue;
+
     }
 
     > li:last-of-type {
@@ -65,7 +81,8 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+      background-color: blue;
+      border-color: darkblue;
 }
 
     
