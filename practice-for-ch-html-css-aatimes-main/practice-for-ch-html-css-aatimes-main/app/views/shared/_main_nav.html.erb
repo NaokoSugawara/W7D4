@@ -3,26 +3,31 @@
 		<ul>
       <li data-controller="sections-sidebar"> 
         <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
-          <i class="fa-solid fa-bars"></i>
-          <span>sections</span>
+            <button class="sections" type="button"><i class="fa-solid fa-bars"></i>sections</button>
+
         </div>
       </li>
 			<li data-controller="modal">
         <div id="search-modal-btn" data-action="click->modal#toggleModal">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <span>search</span>
+          <button class="search" type="button"><i class="fa-solid fa-magnifying-glass"></i>search</button>
+
         </div>
 			</li>
 		</ul>
 	</nav>
   <nav class="right-nav">
-    <ul>
-      <button class="subscribe" type="button">subscribe now</button>
-    </ul>
-    <ol>
-      <button class="log" type="button">log in</button>
-    </ol>
+    <ul> 
+      <li data-controller="subscribe-button"> 
+        <div id="subscribe-btn" data-action="click->subscribe">
+          <button class="subscribe" type="button">subscribe now</button>
+        </div>
+      </li>
+      <li data-controller="log-in-button"> 
+        <div id="log-in-btn" data-action="click->log-in">
+          <button class="log-in" type="button">log in</button>
+        </div>
+      </li>
       <button type="button"><i class="fa-solid fa-gear"></i></button>
-      
+    <ul>
   </nav>
 </header>

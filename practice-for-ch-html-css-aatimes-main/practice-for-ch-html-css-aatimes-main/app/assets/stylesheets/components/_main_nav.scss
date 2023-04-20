@@ -11,11 +11,13 @@
 }
 
 .left-nav {
-
+  
   > ul {
     display: flex;
     flex-direction: row;
     > li {
+      margin-right: 15px;
+      margin-left: 15px;
 
     }
   }
@@ -26,23 +28,25 @@
 }
 
 .subscribe {
-  background-color: blue;
-  border: none;
+
 }
 
 .log {
-  background-color: aqua;
-  outline: none;
 }
 .right-nav  {
-  display: flex;
-  flex-direction: row;
+
+
+  
+ 
 
   > ul {
-
- 
+      flex-direction: row;
+      display: flex;
     > li {
-    
+      margin-right: 3px;
+      margin-left: 3px;
+
+  
     }
 
     > li:last-of-type {
